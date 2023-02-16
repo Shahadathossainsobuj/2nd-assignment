@@ -1,25 +1,38 @@
-.g3-arc {
+<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+</style>. .G3-architects {}
+
+
+
+.g3-section {
+    background-color: bisque;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.nav-bar {
+.g3-section img {
+    margin-top: 50px;
+}
+
+.title {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-.sub-nav {
-    display: flex;
-}
+
 
 .nav-title {
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
     font-size: 20px;
-    font-weight: 700;
 }
 
 .nav-description {
     display: flex;
     padding-left: 450px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .nav-description a {
@@ -29,18 +42,97 @@
     font-weight: 400px;
 }
 
-.g3-section {
-    display: flex;
-    justify-content: center;
-    margin: 5px 200px;
-}
+
 
 .brand {
-    width: 800px;
-    height: 200px;
-    background-color: aqua;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.brand-head {
+    display: flex;
+    justify-content: center;
+}
+
+.explore-btn {
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: rgb(29, 56, 209);
+    background-color: rgb(151, 197, 243);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    border: 0;
+    margin-top: 30px;
+}
+
+.feat {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 50px 250px;
+    grid-gap: 50px;
+
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
 
 }
 
-.brand-head {}
+.features-description {
+    text-align: left;
+    margin: 20px;
+}
+
+.features-description h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: rgb(125, 120, 120);
+
+}
+
+.our {
+    color: black;
+}
+
+.fe {
+    color: rgb(200, 92, 9);
+}
+
+.features-description p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.loven {
+    display: flex;
+    width: 80%;
+
+}
+
+.loven img {}
+
+.Love-enjoy {}
+
+.Love-enjoy h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+
+}
+
+.Love-enjoy h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.description {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    background-color: beige;
+    padding: 5px 0 5px 30px;
+    border-radius: 5px;
+    width: 750px;
+    margin-top: 85px;
+}
